@@ -1,0 +1,49 @@
+.header {
+  font-size: 12px;
+  font-weight: bold;
+
+  #navItem {
+    margin-left: 20px;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.navBarImg {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+// Media Query
+
+@media (max-width: 405px) {
+  .navBarImg {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .navBarImg {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
